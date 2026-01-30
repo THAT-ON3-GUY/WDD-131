@@ -104,6 +104,9 @@ dialog {
     .menu-btn {
         display: none;
     }
+    nav.show a {
+        display: inline;
+    }
     nav a {
         display: inline;
     }
