@@ -81,16 +81,12 @@ dialog {
     font-size: 1.5em;
 }
 
-.hide {
-    display: none;
-}
-
 @media screen and (min-width: 700px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
     .menu-btn {
-        font-size: larger;
+        font-size: x-large;
     }
 }
 

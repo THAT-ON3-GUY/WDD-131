@@ -17,11 +17,6 @@ window.addEventListener('resize', () => {
     }
 });
 
-function toggleMenu() {
-    menu.classList.toggle('show');
-    
-}
-
 gallery.addEventListener('click', openModal);
 
 function openModal(e) {
@@ -46,6 +41,12 @@ closeButton.addEventListener('click', () => {
 
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
+        modal.close();
+    }
+});
+
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.open) {
         modal.close();
     }
 });
