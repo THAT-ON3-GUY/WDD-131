@@ -11,6 +11,11 @@ btn.addEventListener('click', () => {
     }
 });
 
+window.addEventListener('resize', () => {
+    if (window.innerWidth >= 1000) {
+        menu.classList.remove('show');
+    }
+});
 
 function toggleMenu() {
     menu.classList.toggle('show');
