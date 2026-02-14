@@ -71,7 +71,7 @@ header hr, footer hr {
 
 @media (min-width: 800px) {
     .book {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 200px 2px 1fr;
         margin-top: 30px;
         margin-bottom: 30px;
     }
