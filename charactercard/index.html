@@ -12,18 +12,33 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Character Card">
     <meta name="twitter:description" content="Character card page where you can track damage and level">
-    <meta name="twitter:image" content="https://yourURLofSocialPreviewImageHere.png">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/THAT-ON3-GUY/WDD-131/refs/heads/main/charactercard/snortleblatcard.webp">
 
     <!-- One favicon (ICO works everywhere) -->
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="favicon.ico">
 
     <!-- One Apple Touch Icon (iOS home screen) -->
-    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="snortleblatappletouch.webp">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Character Card</title>
+    <link rel="stylesheet" href="card.css">
+    <script src="card.js" defer></script>
 </head>
 <body>
+    <div class="card">
+        <img class="image">
+        <div class="name" id="characterName"></div>
+        <div class="stats">
+            <p id="characterClass"></p>
+            <p id="characterLevel"></p>
+            <p id="characterHealth"></p>
+        </div>
+        <div class="buttons">
+            <button id="attackedButton">Attacked</button>
+            <button id="levelUpButton">Level Up</button>
+        </div>
+    </div>
     
 </body>
 </html>
