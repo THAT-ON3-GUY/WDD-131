@@ -20,12 +20,13 @@
     <!-- One Apple Touch Icon (iOS home screen) -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&display=swap');
+    </style>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for browsing recipes">
     <link rel="stylesheet" href="recipes.css"/>
     <title>Recipe Book</title>
 </head>
@@ -35,13 +36,13 @@
         <h1 class="amatic-sc-bold">RECIPE BOOK</h1>
         <form id="search-bar">
             <input type="search" placeholder="Find a recipe" id="search-input">
-            <button type="submit" id="search-button"><img src="images/search.svg" id="search-image"></button>
+            <button type="submit" id="search-button" aria-label="Search Button"><img src="images/search.svg" id="search-image" alt="magnifying glass search button"></button>
         </form>
         <hr>
     </header>
     <main>
         <div class="recipe">
-            <img class="recipe-image" src="images/apple-crisp.jpg">
+            <img class="recipe-image" src="images/apple-crisp.jpg" alt="photo of apple crisp with icecream on top" fetchpriority="high" width="700px" height="500px">
             <div class="recipe-info">
                 <p class="recipe-category">dessert</p>
                 <h2 class="amatic-sc-bold">APPLE CRISP</h2>
