@@ -23,6 +23,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="images/apple-crisp.webp">
+
+    <style>
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    }
+    h1 { font-size: 3rem; }
+    #site-logo { height: 100px; width: 100px; }
+    </style>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +55,7 @@
     </header>
     <main>
         <div class="recipe">
-            <img class="recipe-image" src="images/apple-crisp.jpg" alt="photo of apple crisp with icecream on top" fetchpriority="high" width="700px" height="500px">
+            <img class="recipe-image" src="images/apple-crisp.webp" alt="photo of apple crisp with icecream on top" fetchpriority="high" width="700" height="500">
             <div class="recipe-info">
                 <p class="recipe-category">dessert</p>
                 <h2 class="amatic-sc-bold">APPLE CRISP</h2>
