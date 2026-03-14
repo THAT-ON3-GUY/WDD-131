@@ -41,6 +41,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website for browsing recipes">
     <link rel="stylesheet" href="recipes.css"/>
+    <script src="recipes.js" defer></script>
     <title>Recipe Book</title>
 </head>
 <body>
@@ -54,27 +55,9 @@
         <hr>
     </header>
     <main>
-        <div class="recipe">
-            <img class="recipe-image" src="images/apple-crisp.webp" alt="photo of apple crisp with icecream on top" fetchpriority="high" width="700" height="500">
-            <div class="recipe-info">
-                <p class="recipe-category">dessert</p>
-                <h2 class="amatic-sc-bold">APPLE CRISP</h2>
-                <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars"
-                >
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-                <p class="recipe-description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-            </div>
+        <div id="recipe-container">
 
         </div>
-        
     </main>
     <footer>
         <div class="social">

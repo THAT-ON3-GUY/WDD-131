@@ -93,12 +93,12 @@ function search() {
     let sortedHikes = filterHikes.sort(compareHikes)
 
     function compareHikes(a,b) {
-    if (a.difficulty < b.difficulty) {
-        return -1;
-    } else if (a.difficulty > b.difficulty) {
-        return 1;
-    }
-    return 0;
+      if (a.difficulty < b.difficulty) {
+          return -1;
+      } else if (a.difficulty > b.difficulty) {
+          return 1;
+      }
+      return 0;
     }
 
     hikeContainer.innerHTML = '';

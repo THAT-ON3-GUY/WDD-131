@@ -14,6 +14,12 @@ header {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;  
+    margin-left: 100px;
+    margin-right: 100px;
+}
+main {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 h1 {
     font-size: 3rem;
@@ -47,7 +53,7 @@ h1 {
     padding: 0;
     border: 0;
 }
-.recipe {
+.recipe-card {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -66,15 +72,21 @@ h1 {
     gap: 8px;
 }
 .recipe-category {
-    background-color: #e5e5e5;
-    padding: 4px 8px;
-    border-radius: 4px;
-    width: fit-content;
-    font-size: 1.2rem;
-    border: solid black 1px;
-    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 0;
 }
-.recipe h2 {
+.recipe-category button {
+    padding: 6px 12px;
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    width: fit-content;
+    white-space: nowrap;
+}
+.recipe-card h2 {
     color: #399df4;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -107,7 +119,7 @@ footer {
     height: 200px;
     width: 200px;
     }
-    .recipe {
+    .recipe-card {
         flex-direction: row;
         align-items: stretch;
         gap: 20px;
@@ -137,6 +149,14 @@ footer {
     .recipe-description {
         display: block;
         font-size: 1.2rem;
+    }
+    header {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    main {
+        margin-left: 250px;
+        margin-right: 250px;
     }
     footer {
         flex-direction: row-reverse;
