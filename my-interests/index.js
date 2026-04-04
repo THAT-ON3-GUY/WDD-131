@@ -19,19 +19,19 @@ const games = [
         name: "Assassin's Creed",
         description: "An action-adventure series focused on stealth, parkour, and historical settings.",
         genres: ["action", "adventure"],
-        image: "images/assassins-creed.jpg"
+        image: "images/assassins-creed.webp"
     },
     {
         name: "Blue Prince",
         description: "A mysterious puzzle adventure game centered around exploration and discovery.",
         genres: ["puzzle", "adventure"],
-        image: "images/blue-prince.jpg"
+        image: "images/blue-prince.webp"
     },
     {
         name: "Elden Ring",
         description: "An open-world action RPG with challenging combat and deep lore.",
         genres: ["rpg", "action"],
-        image: "images/elden-ring.jpg"
+        image: "images/elden-ring.webp"
     },
     {
         name: "Hades",
@@ -43,7 +43,7 @@ const games = [
         name: "Outer Wilds",
         description: "An exploration-based adventure game set in a mysterious time-looping solar system.",
         genres: ["adventure", "exploration", "puzzle"],
-        image: "images/outer-wilds.jpg"
+        image: "images/outer-wilds.webp"
     }
 ];
 
