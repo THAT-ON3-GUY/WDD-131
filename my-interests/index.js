@@ -77,7 +77,7 @@ function renderGames(gameArray) {
         gameCard.classList.add("game-card");
 
         gameCard.innerHTML = `
-            <img src="${game.image}" alt="${game.name}" class="game-image">
+            <img src="${game.image}" alt="${game.name}" class="game-image" fetchpriority="high">
             <h3 class="game-title">${game.name}</h3>
             <p class="game-genre">Genre: ${game.genres.join(", ")}</p>
             <p class="game-description">${game.description}</p>
