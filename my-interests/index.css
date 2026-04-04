@@ -204,6 +204,9 @@ p {
   width: 100%;
 }
 
+.site-footer p {
+    color: white;
+}
 .colors {
   width: 100%;
   min-width: 350px;
