@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>My Interests</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <h1 class="site-title">My Interests</h1>
+            <nav class="site-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="interests.html" class="nav-link">Interests</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+
+        <section class="section page-header-section">
+            <div class="page-header-container">
+                <h2>Games I Like</h2>
+                <p>Browse and search through my favorite games.</p>
+            </div>
+        </section>
+
+        <section class="section controls-section">
+            <div class="controls-container">
+
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input"
+                        placeholder="Search games..."
+                    >
+                </div>
+
+                <div class="filter-container">
+                    <label for="genreFilter">Filter by Genre:</label>
+                    <select id="genreFilter" class="filter-select">
+                        <option value="all">All</option>
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="rpg">RPG</option>
+                        <option value="puzzle">Puzzle</option>
+                        <option value="roguelike">Roguelike</option>
+                        <option value="exploration">Exploration</option>
+                    </select>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section results-section">
+            <div id="gamesContainer" class="games-container">
+                
+                <div class="game-card">
+                    <h3 class="game-title">Game Title</h3>
+                    <p class="game-genre">Genre: RPG</p>
+                    <p class="game-description">
+                        Short description of the game.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 My Interests | Built by Jayden</p>
+        </div>
+    </footer>
+
+</body>
+</html>
